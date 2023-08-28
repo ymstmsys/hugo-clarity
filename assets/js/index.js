@@ -329,7 +329,7 @@ function fileClosure(){
     let post = elem('.post_content');
     let images = post ? post.querySelectorAll('img') : false;
     images ? populateAlt(images) : false;
-    largeImages(post, images);
+    // largeImages(post, images);
   })();
 
   doc.addEventListener('click', function(event) {
